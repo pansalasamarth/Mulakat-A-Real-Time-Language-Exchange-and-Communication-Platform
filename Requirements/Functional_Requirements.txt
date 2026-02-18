@@ -1,0 +1,11 @@
+Functional Requirements
+
+- User sign-up and login
+- User profile onboarding
+- Language preference selection
+- Friend recommendation system
+- Send and accept friend requests
+- Real-time messaging
+- Video call initiation
+- View notifications
+- Secure session management

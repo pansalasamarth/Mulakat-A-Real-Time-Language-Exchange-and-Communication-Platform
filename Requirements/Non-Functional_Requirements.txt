@@ -1,0 +1,9 @@
+Non-Functional Requirements
+
+- Performance: Low latency real-time chat and calls
+- Scalability: Support growing number of users
+- Security: Secure authentication and authorization
+- Usability: User-friendly and intuitive UI
+- Availability: High system uptime
+- Reliability: Consistent message delivery
+- Maintainability: Modular and clean codebase
