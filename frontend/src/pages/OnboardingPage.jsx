@@ -71,7 +71,7 @@ const OnboardingPage = () => {
 
               {/* Generate Random Avatar BTN */}
               <div className="flex items-center gap-2">
-                <button type="button" onClick={handleRandomAvatar} className="btn bg-primary text-black hover:bg-secondary">
+                <button type="button" onClick={handleRandomAvatar} className="btn btn-primary">
                   <ShuffleIcon className="size-4 mr-2" />
                   Generate Random Avatar
                 </button>
@@ -170,7 +170,7 @@ const OnboardingPage = () => {
 
             {/* SUBMIT BUTTON */}
 
-            <button className="btn bg-primary w-full text-black hover:bg-secondary" disabled={isPending} type="submit">
+            <button className="btn w-full btn-primary" disabled={isPending} type="submit">
               {!isPending ? (
                 <>
                   <Camera className="size-5 mr-2" />

@@ -5,10 +5,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: {
-        primary: '#00a0ab', // set your primary color here
-        secondary: '#00d4d9', // lighter complementary cyan
-      },
+
     },
   },
   plugins: [daisyui],
