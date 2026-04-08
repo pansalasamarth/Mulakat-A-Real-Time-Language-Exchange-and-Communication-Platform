@@ -39,7 +39,11 @@ const Navbar = () => {
 
           <div className="avatar">
             <div className="w-9 rounded-full">
-              <img src={authUser?.profilePic} alt="User Avatar" rel="noreferrer" />
+              <img src={authUser?.profilePic} 
+              onError={(e) => {
+                e.target.src = "https://api.dicebear.com/7.x/avataaars/svg?seed=87";
+              }}
+              alt="User Avatar" rel="noreferrer" />
             </div>
           </div>
 

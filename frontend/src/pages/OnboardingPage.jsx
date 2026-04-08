@@ -59,6 +59,9 @@ const OnboardingPage = () => {
                 {formState.profilePic ? (
                   <img
                     src={formState.profilePic}
+                    onError={(e) => {
+                      e.target.src = "https://api.dicebear.com/7.x/avataaars/svg?seed=87";
+                    }}
                     alt="Profile Preview"
                     className="w-full h-full object-cover"
                   />
