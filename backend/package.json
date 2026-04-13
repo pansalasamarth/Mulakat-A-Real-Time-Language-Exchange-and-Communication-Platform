@@ -22,6 +22,9 @@
     "stream-chat": "^8.60.0"
   },
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
     "nodemon": "^3.1.11"
   }
 }
