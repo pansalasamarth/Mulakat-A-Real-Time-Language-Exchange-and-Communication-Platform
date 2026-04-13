@@ -55,7 +55,10 @@ const Sidebar = () => {
         <div className="flex items-center gap-3">
           <div className="avatar">
             <div className="w-10 rounded-full">
-              <img src={authUser?.profilePic} alt="User Avatar" />
+              <img src={authUser?.profilePic} alt="User Avatar" 
+              onError={(e) => {
+                e.target.src = "https://api.dicebear.com/7.x/avataaars/svg?seed=87";
+              }}/>
             </div>
           </div>
           <div className="flex-1">
