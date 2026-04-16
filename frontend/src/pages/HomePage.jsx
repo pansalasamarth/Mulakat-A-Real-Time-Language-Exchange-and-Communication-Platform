@@ -109,7 +109,10 @@ const HomePage = () => {
                     <div className="card-body p-5 space-y-4">
                       <div className="flex items-center gap-3">
                         <div className="avatar size-16 rounded-full">
-                          <img src={user.profilePic} alt={user.fullName} />
+                          <img src={user.profilePic} alt={user.fullName} 
+                          onError={(e) => {
+                            e.target.src = "https://api.dicebear.com/7.x/avataaars/svg?seed=87";
+                          }}/>
                         </div>
 
                         <div>
